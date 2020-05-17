@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class SpammerBot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input Word");
+		String s = sc.nextLine();
+		System.out.println("Input Cycles");
+		int i = sc.nextInt();
+		for(int a = 0; a < i; a++) {
+			int hello = i - a;
+			int spam = hello * i;
+			int cycle = spam * i - a;
+			for(int o = 0; o < cycle; o++) {
+				System.out.println("s");
+			}
+		}
+		
+	}
+
+}
